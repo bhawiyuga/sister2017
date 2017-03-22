@@ -1,0 +1,14 @@
+Tugas 2 Sistem Terdistribusi Kelas D
+
+Buat dua program client, server TCP untuk melakukan
+operasi matematika di sisi server dengan ketentuan
+
+1. Client mengirimkan angka 1, angka 2 dan operasinya
+(+ - / *)
+2. Server menerima angka dan operasi tersebut, kemudian menjalankannya
+3. Server mengembalikan hasil perhitungan ke client
+4. Client mencetak hasilnya
+
+Dikirimkan paling lambat 14 Maret 2017 jam 23.59
+
+Bonus : angka 1, angka 2 dan operasi dikirimkan dalam 1 pengiriman
