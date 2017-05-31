@@ -1,0 +1,52 @@
+Input :
+
+ini ibu budi
+ibu budi masak ayam goreng
+
+Proses :
+- Split
+ini
+ibu
+budi
+ibu
+budi
+masak
+ayam
+goreng
+
+- Beri value
+ini 1
+ibu 1
+budi 1
+ibu 1
+budi 1
+masak 1
+ayam 1
+goreng 1
+
+- Grouping
+ini 1
+budi 1
+budi 1
+ibu 1
+ibu 1
+masak 1
+ayam 1
+goreng 1
+
+- Reduce by key
+ini (1)
+ibu (1,1) = 2
+budi (1,1) = 2
+masak (1)
+ayam (1)
+goreng (1)
+
+Output :
+
+ini 1
+ibu 2
+budi 2
+masak 1
+ayam 1
+goreng 1
